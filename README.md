@@ -13,5 +13,6 @@ This project explores the relationship between access to basic food benefits, pr
 ## Key Findings
 SNAP participation had a high correlation with gun violence rates, but it was not as strong a predictor as other demographic features with classification models. Education levels and race were the most predictive features for mass shooting rates. Classification models outperformed regression models, suggesting that mass shooting gun violence is better categorized than predicted as a continuous variable. The Adaboost Classifier performed best, achieving: 85% accuracy, 76% AUC-ROC score, and 80% precision. Further policy discussions could explore the effects of educational funding and social programs on reducing gun violence.
 ## Notes
-Use [this link](https://nbviewer.org/github/hmcooper1/SNAP-Gun-Violence/blob/main/snap_gun_violence.ipynb) to view the full notebook with the choropleth maps, which do not display on GitHub.
-This project was completed during the Data, Prediction & Law course (LEGALST123) at UC Berkeley taught by Jonathan Marshall. It was completed by Helena Wu, Jane Lee, and Hannah Cooper.
+Use [this link](https://nbviewer.org/github/hmcooper1/SNAP-Gun-Violence/blob/main/snap_gun_violence.ipynb) to view the entire notebook with the choropleth maps, which do not display on GitHub.
+
+This project was completed by Helena Wu, Jane Lee, and Hannah Cooper during Jonathan Marhsall's Data, Prediction & Law course (LEGALST123) at UC Berkeley.
