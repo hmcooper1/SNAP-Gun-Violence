@@ -8,6 +8,16 @@ This project explores the relationship between access to basic food benefits, pr
 - [City and Census Data](https://data.census.gov/table/ACSST1Y2016.S1701?q=percent%20of%20population%20below%20the%20poverty%20line%20by%20county&g=040XX00US06): US Census Burea's data on poverty status and other demographic information by county
 - [SNAP Data](https://www.fns.usda.gov/pd/supplemental-nutrition-assistance-program-snap): Statistics on the number of individuals recieving SNAP benefits
 ## Methodology
+- Data Cleaning & Processing
+  - Cleaned and merged Gun Violence, SNAP, and Census Data on county-level statistics
+  - Standardised snap participation rates by population size
+  - Created outcome varaibles:
+    - Proportion of mass shooting victims (continuous)
+    - "Level" of gun violence as high, medium, or low (categorical)
+    - Binary indicator of high or low gun violence (binary)
+- Exploratory Data Analysis
+  - Visualised mass shooting trends across years and states
+  - Visualsed SNAP partipation by across states
 - Machine Learning Models
   - Regression models (predicting proportion of mass shooting victims): Ordinary Least Squares, Decision Tree Regression, AdaBoost Regression
   - Classification models (predicting high or low gun violence): Logistic Regression, Decision Tree Classifier, AdaBoost Classifier
@@ -15,3 +25,4 @@ This project explores the relationship between access to basic food benefits, pr
 SNAP participation had high correlation with gun violence rates, but was not as strong a predictor as other demographic features with classification models. Education levels and race were the most predictive features for mass shooting rates. Classification models outperformed regression models, suggesting that mass shooting gun violence is better categorized than predicted as a continuous variable. The Adaboost Classifier performed best, achieving: 85% accuracy, 76% AUC-ROC score, and 80% precision. Further policy discussions could explore the effects of educational funding and social programs on reducing gun violence.
 ## Notes
 Information on accessing chloropeth map.
+This project was completed during the Data, Prediction & Law course (LEGALST123) at UC Berkeley taught by Jonathan Marshall. It was completed by Helena Wu, Jane Lee, and Hannah Cooper.
